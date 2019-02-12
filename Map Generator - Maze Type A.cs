@@ -1,4 +1,5 @@
 using System.Drawing; //for pattern support
+using IOLib;
 
 namespace GenerationLib.MapGenerator
 {

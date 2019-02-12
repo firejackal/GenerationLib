@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,11 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cave Generator.cs" />
     <Compile Include="Map Generator - Cave Type A.cs" />
     <Compile Include="Map Generator - Maze Type A.cs" />
     <Compile Include="Map Generator.cs" />
     <Compile Include="Procedural City Generator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="IOLib\IOLib.csproj">
+      <Project>{0aea4bd6-09f6-4bcf-b2a4-8511c0f56178}</Project>
+      <Name>IOLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

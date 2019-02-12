@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerationLib", "GenerationLib.csproj", "{3045078C-3084-4FAF-97D2-EE3186986814}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOLib", "IOLib\IOLib.csproj", "{0AEA4BD6-09F6-4BCF-B2A4-8511C0F56178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3045078C-3084-4FAF-97D2-EE3186986814}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3045078C-3084-4FAF-97D2-EE3186986814}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3045078C-3084-4FAF-97D2-EE3186986814}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEA4BD6-09F6-4BCF-B2A4-8511C0F56178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEA4BD6-09F6-4BCF-B2A4-8511C0F56178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEA4BD6-09F6-4BCF-B2A4-8511C0F56178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEA4BD6-09F6-4BCF-B2A4-8511C0F56178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

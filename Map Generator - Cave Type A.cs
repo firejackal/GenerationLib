@@ -1,3 +1,5 @@
+using IOLib;
+
 namespace GenerationLib.MapGenerator
 {
     public class CaveMapGenerator : BaseGenerator
